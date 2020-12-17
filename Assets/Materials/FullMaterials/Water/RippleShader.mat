@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7941251990406561897
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RippleShader
+  m_Shader: {fileID: -6465566751694194690, guid: 17de1e12877fb8c4caa3bd032aca3e68, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_ADF79B55:
+        m_Texture: {fileID: 2800000, guid: 788f3d561aead5f47a30af19d70cfc29, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_E5FC8E0B:
+        m_Texture: {fileID: 8600000, guid: 6f3f6c297ae4e3c41b9b503bc9aa9fe9, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_192274C6_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 3cd70237133cd954c9705ab48ce162bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_B9D31E67_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 3cd70237133cd954c9705ab48ce162bc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_10600772: 15
+    - Vector1_1C5CAA9C: 14.24
+    - Vector1_2389D969: 0.005
+    - Vector1_51037AC7: 10
+    - Vector1_9E8184AB: -5.84
+    - Vector1_A24AE77F: 10.83
+    - Vector1_ADD758: -0.6
+    - Vector1_B31F09EE: 3.84
+    - Vector1_CF2B5A3A: 0
+    - Vector1_DFDBC8AE: 2.39
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - Color_165EA06E: {r: 0, g: 0.34901962, b: 0.49019608, a: 0.3764706}
+    - Color_4E21606B: {r: 1, g: 1, b: 1, a: 0}
+    - Color_D6FC5DCC: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+    - Color_E512F540: {r: 0.5137255, g: 0.87058824, b: 1, a: 0.21960784}
+    - FUCKYOU: {r: 0, g: 0, b: 0, a: 0}
+    - Position: {r: 0, g: 0, b: 0, a: 0}
+    - RipplePosition: {r: 0, g: 0, b: 0, a: 0}
+    - Special: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_263B9F79: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_93308000: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_CC0D1ED9: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Position: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_BuildTextureStacks: []
